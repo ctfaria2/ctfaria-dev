@@ -24,3 +24,8 @@ hugo              # Build to ./public
 
 ## Deploy
 Push to `main` triggers `.github/workflows/hugo.yml` which builds and deploys to GitHub Pages.
+
+## AI Skills
+See `docs/ai/skills/` for workflow skills:
+- `commit.md` - conventional commit format
+- `push.md` - push guidelines
