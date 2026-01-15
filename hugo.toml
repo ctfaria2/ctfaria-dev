@@ -1,0 +1,44 @@
+baseURL = 'https://ctfaria.dev/'
+languageCode = 'en-us'
+title = 'ctfaria'
+theme = 'archie'
+copyright = '© ctfaria'
+pygmentsstyle = 'monokai'
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+mode = 'auto'  # auto, light, or dark
+useCDN = false
+subtitle = 'Personal site and blog'
+
+# Social links - uncomment and update as needed
+# [[params.social]]
+# name = 'GitHub'
+# icon = 'github'
+# url = 'https://github.com/yourusername'
+
+# [[params.social]]
+# name = 'Twitter'
+# icon = 'twitter'
+# url = 'https://twitter.com/yourusername'
+
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menu.main]]
+name = 'Posts'
+url = '/posts'
+weight = 2
+
+[[menu.main]]
+name = 'About'
+url = '/about'
+weight = 3
+
+[[menu.main]]
+name = 'Tags'
+url = '/tags'
+weight = 4
