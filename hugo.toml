@@ -11,6 +11,7 @@ pygmentscodefencesguesssyntax = true
 mode = 'auto'  # auto, light, or dark
 useCDN = false
 subtitle = 'Personal site and blog'
+customCSS = ['css/custom.css']
 
 # Social links - uncomment and update as needed
 # [[params.social]]

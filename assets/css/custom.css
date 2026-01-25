@@ -1,0 +1,154 @@
+/* Custom color overrides using krimpr palette */
+
+:root {
+  /* Light theme colors - krimpr palette */
+  --color-primary: #0EA5E9;                /* Sky blue - primary accent */
+  --color-primary-hover: #0284C7;          /* Darker blue for hover */
+  --color-border: #8B5CF6;                 /* Purple - accent borders */
+  --color-callout: #0EA5E9;                /* Primary for callouts */
+  --color-text: #0F172A;                   /* Dark navy text */
+  --color-text-muted: #475569;             /* Secondary text */
+  --color-text-meta: #94A3B8;              /* Tertiary text */
+  --color-background: #FFFFFF;             /* White background */
+  --color-background-code: #F1F5F9;        /* Surface secondary - inline code */
+  --color-background-pre: #F8FAFC;         /* Surface - code blocks */
+  --color-background-toc: #F8FAFC;         /* Surface - table of contents */
+  --color-background-draft: #E0F2FE;       /* Primary light for draft labels */
+
+  /* Dark theme colors - krimpr palette */
+  --color-primary-dark: #38BDF8;           /* Sky blue - primary accent */
+  --color-primary-hover-dark: #0EA5E9;     /* Slightly darker for hover */
+  --color-border-dark: #A78BFA;            /* Purple - accent borders */
+  --color-text-dark: #FFFFFF;              /* White text */
+  --color-text-muted-dark: rgba(255, 255, 255, 0.7);  /* Secondary text */
+  --color-background-dark: #0F172A;        /* Dark navy background */
+  --color-background-code-dark: #334155;   /* Surface secondary - inline code */
+  --color-background-pre-dark: #1E293B;    /* Surface - code blocks */
+  --color-background-toc-dark: #1E293B;    /* Surface - table of contents */
+  --color-background-draft-dark: #38BDF8;  /* Primary for draft labels */
+}
+
+/* Light mode overrides */
+a:hover,
+a:focus {
+  background-color: #0EA5E9;
+  color: #FFFFFF;
+  outline-color: #0EA5E9;
+}
+
+.tags a:hover,
+.tags a:focus {
+  background-color: #0EA5E9;
+  color: #FFFFFF;
+}
+
+.soc:hover,
+.soc:focus {
+  color: #FFFFFF;
+  outline-color: #0EA5E9;
+}
+
+.nav-toggle:hover,
+.nav-toggle:focus {
+  background-color: #0EA5E9;
+  color: #FFFFFF;
+  outline-color: #0EA5E9;
+}
+
+/* Selection highlight - light mode */
+::selection {
+  background: #0EA5E9;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background: #0EA5E9;
+  color: #FFFFFF;
+}
+
+/* Callouts with krimpr semantic colors - light mode */
+.callout-alert {
+  color: #9F1239;
+  background-color: #FEE2E2;
+  border-color: #EC4899;
+}
+
+.callout-tip {
+  color: #166534;
+  background-color: #DCFCE7;
+  border-color: #22C55E;
+}
+
+.callout-warning {
+  color: #92400E;
+  background-color: #FFF3E0;
+  border-color: #F59E0B;
+}
+
+/* Dark mode specific overrides */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0F172A;
+  }
+
+  a:hover,
+  a:focus {
+    background-color: #38BDF8;
+    color: #0F172A;
+    outline-color: #38BDF8;
+  }
+
+  .site-description a:hover,
+  .site-description a:focus {
+    color: #0F172A;
+  }
+
+  .tags a:hover,
+  .tags a:focus {
+    background-color: #38BDF8;
+    color: #0F172A;
+  }
+
+  .soc:hover,
+  .soc:focus {
+    color: #0F172A;
+    outline-color: #38BDF8;
+  }
+
+  .nav-toggle:hover,
+  .nav-toggle:focus {
+    background-color: #38BDF8;
+    color: #0F172A;
+    outline-color: #38BDF8;
+  }
+
+  /* Selection highlight - dark mode */
+  ::selection {
+    background: #38BDF8;
+    color: #0F172A;
+  }
+
+  ::-moz-selection {
+    background: #38BDF8;
+    color: #0F172A;
+  }
+
+  /* Callouts with krimpr semantic colors - dark mode */
+  .callout-alert {
+    color: #F472B6;
+    background-color: #3D1A2B;
+    border-color: #F472B6;
+  }
+
+  .callout-tip {
+    color: #4ADE80;
+    background-color: #1A3D2B;
+    border-color: #4ADE80;
+  }
+
+  .callout-warning {
+    color: #FBBF24;
+    background-color: #3D2F1A;
+    border-color: #FBBF24;
+  }
+}
