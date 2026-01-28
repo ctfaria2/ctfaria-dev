@@ -3,6 +3,7 @@ title: "Thoughts: AI Augmented Development"
 date: 2026-01-28
 draft: false
 description: "O brave new world"
+tags: ["Thoughts", "Development", "AI"]
 ---
 
 ## O brave new world
