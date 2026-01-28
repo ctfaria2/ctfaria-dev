@@ -1,0 +1,11 @@
+{
+  "name": "ctfaria-dev",
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint 'content/**/*.md'",
+    "lint:fix": "markdownlint --fix 'content/**/*.md'"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.43.0"
+  }
+}
